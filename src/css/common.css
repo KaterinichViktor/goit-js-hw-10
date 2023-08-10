@@ -1,0 +1,48 @@
+.cat-image{
+    width: 500px;
+    height: 440px;
+    margin-right: 40px;
+    object-fit: fill;
+}
+.cat-info{
+    display: flex;
+}
+h2{
+    margin: 10px 0 30px 0;
+}
+.error{
+    color: red;
+}
+
+select{
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-size: 30px;
+  }
+  
+  
+  .loader, .error {
+    display: none;
+  }
+  
+  .cat-info {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  .cat-image {
+    max-width: 100%;
+  }
+  
+  .breed-select {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
