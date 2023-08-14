@@ -1,8 +1,8 @@
 .cat-image{
-    width: 500px;
-    height: 440px;
+    max-width: 500px;
+    width: auto;
+    height: auto;
     margin-right: 40px;
-    object-fit: fill;
 }
 .cat-info{
     display: flex;
@@ -36,11 +36,13 @@ body {
     margin-top: 20px;
   }
   
-  .cat-image {
-    max-width: 100%;
-  }
+
   
   .breed-select {
-    padding: 10px;
+
     margin-bottom: 10px;
+  }
+
+  .ss-main{
+    width: 320px !important; 
   }
